@@ -1,0 +1,5 @@
+# skip .idea
+.idea
+
+# skip .iml
+practise_data_structures.iml
