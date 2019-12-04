@@ -1,14 +1,3 @@
-/*
- * Copyright (c) 2016 Tianbao Travel Ltd.
- * www.tianbaotravel.com
- * All rights reserved.
- *
- * This software is the confidential and proprietary information of
- * Tianbao Travel Ltd. ("Confidential Information").
- * You shall not disclose such Confidential Information and shall use
- * it only in accordance with the terms of the license agreement you
- * entered into with Tianbao Travel Ltd.
- */
 package array;
 
 import java.util.HashMap;
@@ -44,7 +33,7 @@ public class code_twosum {
          * 空间复杂度：O(1)
          *
          */
-        /*int[] result = {-1, -1};
+        int[] result = {-1, -1};
         for (int i = 0; i < nums.length; i++) {
             result[0] = i;
             int ret = target - nums[i];
@@ -55,7 +44,9 @@ public class code_twosum {
                 }
             }
         }
-        return nums;*/
+        //return nums;
+
+        //========================================================= 结题方法分割线 ===============================================================
 
         /**
          * 2.  暴力解法：
